@@ -86,6 +86,7 @@ end
 local isValid, correctKey = validate()
 
 -- this took so long in studio
+-- pls pay le respect
 local AbyssUI = Instance.new("ScreenGui")
 AbyssUI.Name = "AbyssAuth"
 AbyssUI.Parent = CoreGui
