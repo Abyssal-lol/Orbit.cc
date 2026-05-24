@@ -1,3 +1,7 @@
+-- open sourced because this is a shit key system
+-- skid all you want
+-- everything is locked so idk
+
 if getgenv().ngaaa then warn("already executed [abyss.lol]") return end
 getgenv().ngaaa = true
 
@@ -58,7 +62,7 @@ local TweenService = game:GetService("TweenService")
 local CoreGui = game:GetService("CoreGui")
 
 local KeyFilePath = "Abyss_Auth.txt"
-local RawKeyURL = "https://raw.githubusercontent.com/Abyssal-lol/Abyss-lol/refs/heads/main/Hi/Keysystem/kk"
+local RawKeyURL = "https://raw.githubusercontent.com/Abyssal-lol/Abyss-lol/refs/heads/main/Hi/Keysystem/kk" -- same thing in discord
 local DiscordURL = "https://discord.gg/5qSWYaqnvd"
 
 local function fetchKey()
@@ -81,7 +85,7 @@ end
 
 local isValid, correctKey = validate()
 
--- Create UI Instance first so it can be referenceable and destroyed if valid
+-- this took so long in studio
 local AbyssUI = Instance.new("ScreenGui")
 AbyssUI.Name = "AbyssAuth"
 AbyssUI.Parent = CoreGui
