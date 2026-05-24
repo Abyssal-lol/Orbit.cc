@@ -1,2 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Abyssal-lol/JsonPremium/refs/heads/main/Lua.lua"))()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Abyssal-lol/Orbit.cc/refs/heads/main/Loader/Main.lua"))()
